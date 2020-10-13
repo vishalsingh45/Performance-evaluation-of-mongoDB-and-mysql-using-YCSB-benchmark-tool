@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "truncate 'usertable'" | /usr/local/hbase/bin/hbase shell
