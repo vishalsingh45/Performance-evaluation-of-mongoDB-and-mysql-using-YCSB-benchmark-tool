@@ -1,0 +1,33 @@
+Adding shard node URL: jdbc:mysql://localhost:3306/Benchtest
+Using shards: 1, batchSize:-1, fetchSize: -1
+[OVERALL], RunTime(ms), 35730
+[OVERALL], Throughput(ops/sec), 209.90764063811923
+[TOTAL_GCS_PS_Scavenge], Count, 20
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 91
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.25468793730758466
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 20
+[TOTAL_GC_TIME], Time(ms), 91
+[TOTAL_GC_TIME_%], Time(%), 0.25468793730758466
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2479.0
+[CLEANUP], MinLatency(us), 2478
+[CLEANUP], MaxLatency(us), 2479
+[CLEANUP], 95thPercentileLatency(us), 2479
+[CLEANUP], 99thPercentileLatency(us), 2479
+[INSERT], Operations, 374
+[INSERT], AverageLatency(us), 58562.181818181816
+[INSERT], MinLatency(us), 13944
+[INSERT], MaxLatency(us), 445439
+[INSERT], 95thPercentileLatency(us), 217599
+[INSERT], 99thPercentileLatency(us), 340479
+[INSERT], Return=OK, 374
+[SCAN], Operations, 7126
+[SCAN], AverageLatency(us), 1819.6282626999719
+[SCAN], MinLatency(us), 258
+[SCAN], MaxLatency(us), 24239
+[SCAN], 95thPercentileLatency(us), 3267
+[SCAN], 99thPercentileLatency(us), 4879
+[SCAN], Return=OK, 7126

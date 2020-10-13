@@ -1,0 +1,34 @@
+Adding shard node URL: jdbc:mysql://localhost:3306/Benchtest
+Using shards: 1, batchSize:-1, fetchSize: -1
+[OVERALL], RunTime(ms), 813338
+[OVERALL], Throughput(ops/sec), 12.295011422065611
+[TOTAL_GCS_PS_Scavenge], Count, 9
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 103
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.012663861764727578
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 9
+[TOTAL_GC_TIME], Time(ms), 103
+[TOTAL_GC_TIME_%], Time(%), 0.012663861764727578
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 4362.0
+[CLEANUP], MinLatency(us), 4360
+[CLEANUP], MaxLatency(us), 4363
+[CLEANUP], 95thPercentileLatency(us), 4363
+[CLEANUP], 99thPercentileLatency(us), 4363
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 81226.5116
+[INSERT], MinLatency(us), 14088
+[INSERT], MaxLatency(us), 1369087
+[INSERT], 95thPercentileLatency(us), 267263
+[INSERT], 99thPercentileLatency(us), 451839
+[INSERT], Return=OK, 10000
+0
+[INSERT], Return=ERROR, 1
+[INSERT-FAILED], Operations, 1
+[INSERT-FAILED], AverageLatency(us), 3267.0
+[INSERT-FAILED], MinLatency(us), 3266
+[INSERT-FAILED], MaxLatency(us), 3267
+[INSERT-FAILED], 95thPercentileLatency(us), 3267
+[INSERT-FAILED], 99thPercentileLatency(us), 3267
